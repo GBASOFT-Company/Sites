@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: white;
+	color: #777;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -15,12 +15,12 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 800;
 	font-size: 36px;
-	color: white;
+	color: #333;
 }
 h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: deepskyblue;
+	color: #333;
 }
 h4 {
 	font-size: 18px;
@@ -40,7 +40,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #ffffff;
+	color: #608dfd;
 	font-weight: 400;
 }
 a:hover, a:focus {
@@ -52,6 +52,8 @@ ul, ol {
 }
 ul, ol {
 	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
 }
 hr {
 	height: 2px;
@@ -62,28 +64,26 @@ hr {
 	margin-bottom: 20px;
 	border: 0;
 }
-/* Navigation */
 #menu {
-	padding: 4px;
+	padding: 15px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #212529;
+	background-color: #fff;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
-
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 700;
-	color: rgb(255, 255, 255);
+	color: #333;
 	text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: rgb(255, 255, 255);
+	color: #555;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
@@ -186,19 +186,31 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
-	background-color: #000000;
+	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.introAbout {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 80px;
+	font-size: 82px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -241,12 +253,6 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	display: table;
-	width: 100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
 }
 #about h3 {
 	font-size: 22px;
@@ -438,8 +444,8 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 50px 0 50px 0;
-	background: white;
+	padding: 100px 0 60px 0;
+	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -449,7 +455,7 @@ header .intro-text {
 	font-size: 16px;
 }
 #contact h2 {
-	color: black;
+	color: #fff;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -553,8 +559,8 @@ color: #777;
 	width: 48px;
 	height: 48px;
 	padding: 12px 0;
-	border: 2px solid #7879FF;
-	color: #7879FF;
+	border: 2px solid #fff;
+	color: #fff;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
@@ -564,10 +570,11 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	padding: 10px 0;
+	background: #f6f6f6;
+	padding: 30px 0;
 }
 #footer p {
-	color: rgb(255, 255, 255);
+	color: #888;
 	font-size: 14px;
 }
 #footer a {
