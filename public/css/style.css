@@ -107,10 +107,10 @@ hr {
 #menu.navbar-dark .navbar-nav > li > a:hover:after {
 	width: 100%;
 }
-.navbar-dark .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+.navbar-dark .navbar-nav > .active > a, .navbar-dark .navbar-nav > .active > a:hover, .navbar-dark .navbar-nav > .active > a:focus {
 	background-color: transparent;
 }
-.navbar-dark .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
+.navbar-dark .navbar-nav > .active > a:after, .navbar-dark .navbar-nav > .active > a:hover:after, .navbar-dark .navbar-nav > .active > a:focus:after {
 	display: block !important;
 	position: absolute !important;
 	left: 0 !important;
@@ -124,7 +124,7 @@ hr {
 .navbar-toggle {
 	border-radius: 0;
 }
-.navbar-dark .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+.navbar-dark .navbar-toggle:hover, .navbar-dark .navbar-toggle:focus {
 	background-color: #fff;
 	border-color: #608dfd;
 }
