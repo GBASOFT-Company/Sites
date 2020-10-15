@@ -86,7 +86,7 @@ hr {
 #menu.navbar-dark .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color: rgb(255, 255, 255);
 	font-size: 15px;
 	font-weight: 400;
 	padding: 8px 2px;
