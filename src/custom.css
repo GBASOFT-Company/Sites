@@ -29,6 +29,10 @@
 	padding-bottom: 15px;
 }
 
+.custom-container {
+    width: 100%;
+}
+
 .address-label{
     color: black;
 }
