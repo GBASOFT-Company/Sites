@@ -36,3 +36,7 @@
 .address-label{
     color: black;
 }
+
+.row{
+    margin: 0px !important;
+}
