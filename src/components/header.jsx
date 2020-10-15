@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 
 export class Header extends Component {
@@ -10,7 +11,7 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
+                    Freelance Yazılım
                     <span></span>
                   </h1>
                   <p>
