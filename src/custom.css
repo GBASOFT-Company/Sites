@@ -1,0 +1,43 @@
+.navbar-right{
+    float: left !important;
+    margin-left: 60%;
+}
+
+#about h2::after {
+    width: -webkit-fill-available !important;
+}
+
+.paddingForLi{
+    width: 100%;
+    padding-top: 3px;
+}
+
+#contact .section-title h2::after{
+    width: -webkit-fill-available !important;
+    
+}
+
+#fa-map-marker{
+    margin-left: 6px !important;
+}
+
+#a {
+	color: white !important;
+	font-weight: 400;
+}
+
+.contact-h2{
+    text-transform: none;
+    color: rgb(0, 0, 0);
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+.address-label{
+    color: black;
+}
+
+.row{
+    margin: 0px !important;
+}
