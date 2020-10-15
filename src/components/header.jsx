@@ -10,17 +10,18 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                    we are a landing page
+                    freelance yazılım
                     <span></span>
                   </h1>
                   <p>
-                    {this.props.data ? this.props.data.paragraph : "Loading"}
+                  Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
+                    Geliştirme
                   </p>
                   <a
                     href="#features"
                     className="btn btn-custom btn-lg page-scroll"
                   >
-                    Learn More
+                    Daha Fazlası
                   </a>{" "}
                 </div>
               </div>
