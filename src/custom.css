@@ -1,8 +1,3 @@
-.navbar-right{
-    float: left !important;
-    margin-left: 60%;
-}
-
 #about h2::after {
     width: -webkit-fill-available !important;
 }
