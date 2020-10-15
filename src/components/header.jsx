@@ -11,7 +11,6 @@ export class Header extends Component {
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
                     freelance yazılım
-                    <span></span>
                   </h1>
                   <p>
                   Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
