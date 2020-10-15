@@ -18,7 +18,7 @@ export class Header extends Component {
                     Geliştirme
                   </p>
                   <a
-                    href="#features"
+                    href="#about"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Daha Fazlası
