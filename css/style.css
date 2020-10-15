@@ -196,7 +196,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
-	position: absolute;
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
 	font-size: 80px;
