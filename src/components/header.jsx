@@ -10,15 +10,15 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                    Freelance Yazılım
+                  Freelance Yazılım
                     <span></span>
                   </h1>
                   <p>
-                    Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
+                  Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
                     Geliştirme
                   </p>
                   <a
-                    href="#about"
+                    href="#features"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Daha Fazlası
