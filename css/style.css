@@ -184,7 +184,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	display: table;
 	width: 100%;
-	max-width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
@@ -242,7 +241,6 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	width: 100%;
 }
 #about h3 {
 	font-size: 22px;
