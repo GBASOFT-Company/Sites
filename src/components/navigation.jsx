@@ -23,7 +23,6 @@ export class Navigation extends Component {
               GBASOFT
             </a>{" "}
           </div>
-
           <div
             className="collapse navbar-collapse"
             id="bs-example-navbar-collapse-1"
