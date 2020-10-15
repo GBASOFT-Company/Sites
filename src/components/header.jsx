@@ -13,8 +13,7 @@ export class Header extends Component {
                     freelance yazılım
                   </h1>
                   <p>
-                  Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
-                    Geliştirme
+        
                   </p>
                   <a
                     href="#features"
