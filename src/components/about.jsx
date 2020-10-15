@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import "../custom.css";
+import Header from "./header";
 export class about extends Component {
   render() {
     return (
-      <div id="about">
+      <header id="header">
+        <div className="introAbout">
+        <div id="about">
         <div className="container">
           <div className="row">
+            <div className="col-xs-12 col-md-6"> <img src="img/about.jpg" className="img-responsive" alt=""/> </div>
             <div className="col-xs-12 col-md-6">
-              {" "}
-              <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
-            </div>
-            <div className="col-xs-12 col-md-6">
-              <div className="about-text">
+            <div className="about-text">
                 <h2>Hakkımızda</h2>
                 <p>
                   Mobil uygulamalar, web uygulamaları, yazılım desteği ve
@@ -48,6 +48,8 @@ export class about extends Component {
           </div>
         </div>
       </div>
+      </div>
+      </header>
     );
   }
 }
