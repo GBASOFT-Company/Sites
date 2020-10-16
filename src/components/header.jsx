@@ -10,11 +10,12 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                  WE ARE A LANDINGtest PAGE
+                    freelance yazılım
                     <span></span>
                   </h1>
                   <p>
-                  test
+                  Freelance Yazılım, Mobil Uygulama Geliştirme, Web Uygulama
+                    Geliştirme
                   </p>
                   <a
                     href="#about"
